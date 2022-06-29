@@ -19,6 +19,6 @@ start rtabmapping
 PS: don't close gazebo and rviz before you haven't saved the map  
 cd into folder where you want to save the map  
 `rosrun map_server map_saver -f <map_name>`  
-when using rtabmap the map is automatically save at ==".ros/rtabmap.db"==  
+when using rtabmap the map is automatically save at `.ros/rtabmap.db` 
 
 
