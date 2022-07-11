@@ -108,7 +108,7 @@
     <arg name="localization"    value="$(arg localization)" />
     <arg name="visual_odometry" value="false" />
     <arg name="approx_sync"     value="$(eval camera or not icp_odometry)" />
-    <arg name="imu_topic"       value="/imu/data" />
+    <arg name="imu_topic"       value="/imu" />
     <arg unless="$(arg icp_odometry)" name="odom_topic" value="/odom" />
     <arg name="frame_id"        value="agv_base_link" />
     <arg name="rtabmapviz"      value="$(arg rtabmapviz)" />

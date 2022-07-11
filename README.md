@@ -13,7 +13,7 @@ starts the simulation in Gazebo
 to start gmapping  
 `roslaunch robo_base_slam robo_base_slam.launch`  
 start rtabmapping  
-`roslaunch robo_base_slam robo_base_slam.launch slam_methods:=rtab_velodyne `  
+`roslaunch robo_base_slam robo_base_slam.launch slam_methods:=rtab`  
 
 ## save map
 PS: don't close gazebo and rviz before you haven't saved the map  
