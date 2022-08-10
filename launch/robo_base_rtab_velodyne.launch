@@ -98,7 +98,9 @@
       --Grid/CellSize $(arg cell_size) 
       --Icp/PointToPlaneRadius 0 
       --Icp/PointToPlaneNormalK 10 
-      --Icp/MaxTranslation 1"/>
+      --Icp/MaxTranslation 1
+      --Grid/MaxObstacleHeight 2.0
+      --Grid/MinGroundHeight .05"/>
 
   <!--- Run rtabmap -->
   <remap from="/rtabmap/grid_map" to="/map"/>

@@ -6,10 +6,10 @@
   <arg name="set_odom_frame" default="odom"/>
   <arg name="set_map_frame"  default="map"/>
   <arg name="rtabmapviz" default="true"/>
-    <arg name="localization" default="false"/>
-    <arg name="database_path" default="~/.ros/base_rtabmap.db"/>
+  <arg name="localization" default="false"/>
+  <arg name="database_path" default="~/.ros/base_rtabmap.db"/>
 
-      <arg     if="$(arg localization)" name="rtabmap_args" default=""/>
+  <arg     if="$(arg localization)" name="rtabmap_args" default=""/>
   <arg unless="$(arg localization)" name="rtabmap_args" default="-d"/>
 
 
