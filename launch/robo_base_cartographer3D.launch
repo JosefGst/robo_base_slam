@@ -19,10 +19,10 @@
   <!-- cartographer_node -->
   <node pkg="cartographer_ros" type="cartographer_node" name="cartographer_node" 
         args="-configuration_directory $(find robo_base_slam)/config
-              -configuration_basename turtlebot_conf.lua"
+              -configuration_basename cartographer_3d.lua"
         output="screen">
     <remap from="imu" to="/flat_imu"/>
-    <!-- <remap from="points2" to="/velodyne_points" /> -->
+    <remap from="points2" to="/velodyne_points" />
   </node>
 
   <!-- cartographer_occupancy_grid_node -->
