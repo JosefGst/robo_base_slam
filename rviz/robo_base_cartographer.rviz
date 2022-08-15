@@ -276,8 +276,10 @@ Visualization Manager:
       Submap query service: /submap_query
       Submaps:
         All: true
+        All Submap Pose Markers: true
         Trajectory 0:
-          0.58: true
+          0.90: true
+          Submap Pose Markers: true
           Value: true
       Topic: /submap_list
       Tracking frame: agv_base_link
@@ -364,25 +366,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 15.174163818359375
+      Distance: 25.90715980529785
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.21339966356754303
-        Y: -1.6324390172958374
-        Z: 0.9870223999023438
+        X: 0.07805318385362625
+        Y: 2.2199602127075195
+        Z: -2.3551714420318604
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.909796953201294
-      Target Frame: <Fixed Frame>
+      Pitch: 1.029796838760376
+      Target Frame: agv_base_link
       Value: Orbit (rviz)
-      Yaw: 4.0181803703308105
+      Yaw: 4.078181743621826
     Saved: ~
 Window Geometry:
   Displays:
